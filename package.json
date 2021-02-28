@@ -1,0 +1,59 @@
+{
+  "name": "vscode-plugin-translations-syntax",
+  "displayName": "Plugin Translations Syntax",
+  "description": "Adds syntax highlighting for the translations of Tech's plugins.",
+  "version": "1.0.0",
+  "publisher": "RLNT",
+  "author": {
+    "name": "RLNT"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "images/icon.png",
+  "keywords": [
+    "plugin translations",
+    "syntax highlighting",
+    "techscode"
+  ],
+  "markdown": "github",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RLNT/vscode-plugin-translations-syntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RLNT/vscode-plugin-translations-syntax/issues",
+    "email": "support@rlnt.dev"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "translations",
+        "aliases": [
+          "Plugin Translations",
+          "Plugin-Translations",
+          "translations"
+        ],
+        "extensions": [
+          ".lang"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "translations",
+        "scopeName": "source.translations",
+        "path": "./syntaxes/translations.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "generator-code": "^1.4.2",
+    "vsce": "^1.85.1",
+    "yo": "^3.1.1"
+  }
+}
