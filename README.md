@@ -11,6 +11,22 @@
 
 ---
 
+<br>
+<!-- Table of Contents -->
+<details>
+    <summary>
+        <strong>Table of Contents (click to expand)</strong>
+    </summary>
+
+- [**Plugin Translations Syntax**](#plugin-translations-syntax)
+  - [**📑 Overview**](#-overview)
+  - [**🔧 Installation**](#-installation)
+  - [**🔨 Usage**](#-usage)
+  - [**⏰ Changelog**](#-changelog)
+  - [**🎓 License**](#-license)
+</details>
+
+
 ## **📑 Overview**
 ![example]
 
@@ -22,7 +38,7 @@ Go to the [Visual Studio Code Marketplace][Marketplace] and click the *install* 
 You can also use the integrated extension browser in [VSCode][Visual Studio Code] to install it.
 
 
-## **Usage**
+## **🔨 Usage**
 
 Make sure to use a theme that supports this syntax highlighting. The theme we are using in our example is this one: [Material Dark Soda].<br>
 To activate the syntax highlighting, your file needs to have the file extension `.lang`. If you did everything right, your translations should be highlighted like in our example.
