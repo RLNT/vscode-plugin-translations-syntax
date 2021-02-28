@@ -1,5 +1,5 @@
 {
-  "name": "vscode-plugin-translations-syntax",
+  "name": "plugin-translations-syntax",
   "displayName": "Plugin Translations Syntax",
   "description": "Adds syntax highlighting for the translations of Tech's plugins.",
   "version": "1.0.0",
